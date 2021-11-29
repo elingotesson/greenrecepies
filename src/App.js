@@ -1,37 +1,18 @@
-import React, {useState} from 'react';
-import './App.css';
-import Header from './components/Header/Header';
-import LoginForm from './components/LoginForm/LoginForm';
-import Home from './components/Home/Home';
-import PrivateRoute from './utils/PrivateRoute';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-import AlertComponent from './components/AlertComponent/AlertComponent';
+import React from "react";
+import "./App.css";
+import { Header } from "./components/Header/Header";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
-  const [title, updateTitle] = useState(null);
-  const [errorMessage, updateErrorMessage] = useState(null);
   return (
-    <Router basename="/2021">
-    <div className="App">
-      <Header title={title}/>
+    <Router basename="/greenrecepies">
+      <div className="App">
+        <Header />
         <div className="container flex-column">
           <Switch>
-            <Route path="/" exact={true}>
-              <LoginForm showError={updateErrorMessage} updateTitle={updateTitle}/>
-            </Route>
-            <Route path="/login">
-              <LoginForm showError={updateErrorMessage} updateTitle={updateTitle}/>
-            </Route>
-            <PrivateRoute path="/home">
-              <Home/>
-            </PrivateRoute>
+            <Route path="/" exact={true}></Route>
           </Switch>
-          <AlertComponent errorMessage={errorMessage} hideError={updateErrorMessage}/>
         </div>
-    </div>
+      </div>
     </Router>
   );
 }
