@@ -1,0 +1,35 @@
+{
+    "recepies" : [
+        {
+            "title": "VEGANSKA BAO BUNS",
+            "imgUrl": "https://www.javligtgott.se/wp-content/uploads/2021/06/2I2A7328.jpg",
+            "portions": "3-4",
+            "descripton": "",
+            "ingredients": ["400 g fast naturell tofu", "1 tsk riven färsk ingefära", "2 klyftor vitlök", "1/2 dl Kikkomansoja", "1-3 tsk TABASCO® Sriracha", "1 msk sesamolja", "2 dl vegansk majonnäs", "2 klyftor vitlök", "1 tsk färsk riven ingefära", "2 msk sesamolja", "1,5 msk Kikkomansoja", "1-3 tsk TABASCO® Srirachasås", "Jucie från 1/3 lime", "Salt efter smak"],
+            "instructions": [{
+                "title": "Tofun",
+                "steps": [
+                    "Lägg tofun i press mellan två skärbrädor med något tungt ovanpå i 30. Detta gör tofun fastare och hjälper den att suga åt sig marinaden bättre.",
+                    "Skiva därefter tofun i ca 0,5 cm tjocka skivor.",
+                    "Skala och riv ingefära och vitlök och lägg därefter tofun i en plastpåse tillsammans med ingefära, vitlök och de övriga ingredienserna till marinaden. Låt dra i kylskåp i minst 30 minuter, gärna längre.",
+                    "När det är dags att börja äta så häller du påsens hela innehåll i en stekpanna med lite extra rapsolja och steker på medelvärme tills tofun fått fin färg och all vätska dunstat av från marinaden. Fega inte, det är gott om tofun får steka ett tag och bli lite seg."
+
+                ]
+            }, {
+                "title": "Dressingen",
+                "steps": [
+                    "Skala och riv ingefära och vitlök. Blanda ihop alla ingredienser till en dressing och låt dra i kylskåp i 30 min."
+                ]
+            },
+            {
+                "title": "Picklade grönsaker",
+                "steps": [
+                    "Skala och strimla morötterna, löken, ingefäran och chilin tunt.",
+                    "Hetta upp vatten, socker, ättika och lite salt i en kastrull. När lagen kokat upp så lägg ner grönsakerna och låt allt svalna i kastrullen. Efter ca 1 h är grönsakerna färdiga att ätas."
+                ]
+            }
+        ],
+            "originUrl": "https://www.javligtgott.se/veganska-bao-buns/"
+        } 
+    ]
+}
