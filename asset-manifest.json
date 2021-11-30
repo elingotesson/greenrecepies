@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/greenrecepies/static/css/main.1f720388.chunk.css",
+    "main.js": "/greenrecepies/static/js/main.8a2ad4ae.chunk.js",
+    "main.js.map": "/greenrecepies/static/js/main.8a2ad4ae.chunk.js.map",
+    "runtime~main.js": "/greenrecepies/static/js/runtime~main.0374ff8e.js",
+    "runtime~main.js.map": "/greenrecepies/static/js/runtime~main.0374ff8e.js.map",
+    "static/css/2.94ae5829.chunk.css": "/greenrecepies/static/css/2.94ae5829.chunk.css",
+    "static/js/2.bfe37a87.chunk.js": "/greenrecepies/static/js/2.bfe37a87.chunk.js",
+    "static/js/2.bfe37a87.chunk.js.map": "/greenrecepies/static/js/2.bfe37a87.chunk.js.map",
+    "index.html": "/greenrecepies/index.html",
+    "precache-manifest.678f71a3ace95b38ab0baf39073c386a.js": "/greenrecepies/precache-manifest.678f71a3ace95b38ab0baf39073c386a.js",
+    "service-worker.js": "/greenrecepies/service-worker.js",
+    "static/css/2.94ae5829.chunk.css.map": "/greenrecepies/static/css/2.94ae5829.chunk.css.map",
+    "static/css/main.1f720388.chunk.css.map": "/greenrecepies/static/css/main.1f720388.chunk.css.map",
+    "static/media/font-awesome.min.css": "/greenrecepies/static/media/fontawesome-webfont.fee66e71.woff"
+  }
+}
