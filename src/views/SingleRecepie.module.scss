@@ -1,5 +1,11 @@
+.container {
+  margin-bottom: 4rem;
+}
+
 .title {
   margin-bottom: 2rem;
+  font-size: 2.75em;
+  font-weight: bold;
 }
 
 .subTitle {
@@ -8,9 +14,26 @@
 
 .img {
   max-width: 100%;
+
+  @media (max-width: 62rem) {
+    margin-bottom: 2rem;
+  }
 }
 
 .ingredientRow {
   margin-bottom: 2rem;
   align-items: center;
+}
+
+.icon {
+  margin-right: 1rem;
+  font-size: 1.25rem;
+}
+
+.servingRow {
+  margin-bottom: 2rem;
+}
+
+.instructionsRow {
+  margin-bottom: 2rem;
 }

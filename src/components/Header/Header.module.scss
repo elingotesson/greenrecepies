@@ -1,7 +1,16 @@
 .header {
-  margin: 2rem 4rem;
+  margin: 1rem 0 2rem 0;
 }
 
 .title {
   margin-bottom: 0;
+}
+
+.navCol {
+  display: flex;
+  justify-content: flex-end;
+
+  @media (max-width: 48rem) {
+    justify-content: flex-start;
+  }
 }

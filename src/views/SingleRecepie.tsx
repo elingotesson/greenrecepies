@@ -2,6 +2,7 @@ import React from "react";
 import json from "../json/recepies.json";
 import styles from "./SingleRecepie.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 type InstructionStep = {
   title?: string;
@@ -28,7 +29,7 @@ export const SingleRecepie: React.FC = () => {
   }
 
   return (
-    <Container>
+    <Container className={styles.container}>
       <h2 className={styles.title}>{recepie.title}</h2>
       <Row className={styles.ingredientRow}>
         <Col xs={{ order: 2, span: 12 }} lg={{ order: 1, span: 4 }}>
@@ -48,10 +49,16 @@ export const SingleRecepie: React.FC = () => {
           )}
         </Col>
       </Row>
+      <Row className={styles.servingRow}>
+        <Col>
+          <FontAwesomeIcon icon="user-friends" className={styles.icon} />
+          {recepie.portions} portioner
+        </Col>
+      </Row>
       <h4 className={styles.subTitle}>Gör såhär</h4>
       {recepie.instructions &&
         recepie.instructions.map((instuction) => (
-          <Row>
+          <Row className={styles.instructionsRow}>
             <Col>
               <h5>{instuction.title}</h5>
               <ol>
