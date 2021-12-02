@@ -3,8 +3,9 @@ import json from "../json/recepies.json";
 import styles from "./SingleRecepie.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { InstructionStep } from "../components/InstructionStep/InstructionStep";
 
-type InstructionStep = {
+type Step = {
   title?: string;
   step: string[];
 };
@@ -15,7 +16,7 @@ type Recepie = {
   portions: string;
   descripton?: string;
   ingredients: string[];
-  instructions: InstructionStep[];
+  instructions: Step[];
   originUrl: string;
 };
 
@@ -60,12 +61,10 @@ export const SingleRecepie: React.FC = () => {
         recepie.instructions.map((instuction) => (
           <Row className={styles.instructionsRow}>
             <Col>
-              <h5>{instuction.title}</h5>
-              <ol>
-                {instuction.steps.map((step) => (
-                  <li>{step}</li>
-                ))}
-              </ol>
+              <h5 className={styles.instructionsTitle}>{instuction.title}</h5>
+              {instuction.steps.map((step) => (
+                <InstructionStep step={step} />
+              ))}
             </Col>
           </Row>
         ))}

@@ -10,9 +10,10 @@ import {
   faCheckSquare,
   faCoffee,
   faUserFriends,
+  faCheck,
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, fas, faCheckSquare, faCoffee, faUserFriends);
+library.add(fab, fas, faCheckSquare, faCoffee, faUserFriends, faCheck);
 
 function App() {
   return (

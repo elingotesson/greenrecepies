@@ -6,6 +6,9 @@
   margin-bottom: 2rem;
   font-size: 2.75em;
   font-weight: bold;
+  @media (max-width: 32rem) {
+    font-size: 1.75em;
+  }
 }
 
 .subTitle {
@@ -36,4 +39,8 @@
 
 .instructionsRow {
   margin-bottom: 2rem;
+}
+
+.instructionsTitle {
+  margin-bottom: 1.25rem;
 }
