@@ -1,9 +1,10 @@
 import React from "react";
-import json from "../json/recepies.json";
 import styles from "./SingleRecepie.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { InstructionStep } from "../components/InstructionStep/InstructionStep";
+import { useLocation } from "react-router-dom";
+import { Location } from "history";
 
 type Step = {
   title?: string;
@@ -18,19 +19,20 @@ type IngredientsGroup = {
 type Recepie = {
   title: string;
   imgUrl: string;
-  portions: string;
+  servings: string;
   descripton?: string;
   ingredientsGroups: IngredientsGroup[];
   instructions: Step[];
   originUrl: string;
 };
 
-export const SingleRecepie: React.FC = () => {
-  const recepie = json.recepies.find(
-    (item) => item.title === "VEGANSKA BAO BUNS"
-  );
+interface LocationWithRecepie extends Location {
+  recepie: Recepie;
+}
 
-  // const recepie = json.recepies.find((item) => item.title === "JÄVLIGT NACHO");
+export const SingleRecepie: React.FC = () => {
+  const location = useLocation<LocationWithRecepie>();
+  const recepie = location.state.recepie;
 
   if (!recepie) {
     return null;
@@ -115,7 +117,9 @@ export const SingleRecepie: React.FC = () => {
                       {instuction.title}
                     </h5>
                     {instuction.steps.map((step: string, index: number) => (
-                      <InstructionStep step={step} key={index} />
+                      <span key={index}>
+                        <InstructionStep step={step} />
+                      </span>
                     ))}
                   </Col>
                 </Row>
