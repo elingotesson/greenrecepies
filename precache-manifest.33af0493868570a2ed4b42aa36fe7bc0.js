@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f671989037a7dad2941357ae170b5c80",
+    "revision": "07baa8004e7eeb9bd2b35887d902f3d7",
     "url": "/greenrecepies/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/greenrecepies/static/css/2.94ae5829.chunk.css"
   },
   {
-    "revision": "3e7b8b9b207bd9ce331d",
-    "url": "/greenrecepies/static/css/main.0bff28a7.chunk.css"
+    "revision": "ba5392fc836d37f41ead",
+    "url": "/greenrecepies/static/css/main.68f8de25.chunk.css"
   },
   {
     "revision": "aeaf935b949506ee00f1",
     "url": "/greenrecepies/static/js/2.eb563397.chunk.js"
   },
   {
-    "revision": "3e7b8b9b207bd9ce331d",
-    "url": "/greenrecepies/static/js/main.c1e827da.chunk.js"
+    "revision": "ba5392fc836d37f41ead",
+    "url": "/greenrecepies/static/js/main.e63d5b36.chunk.js"
   },
   {
     "revision": "36122fdc56b3802fef83",
