@@ -7,15 +7,17 @@ import { motion } from "framer-motion";
 
 interface Props {
   step: string;
+  key?: number;
 }
 
-export const InstructionStep: React.FC<Props> = ({ step }) => {
+export const InstructionStep: React.FC<Props> = ({ step, key }) => {
   const [checked, setChecked] = useState(false);
   return (
     <Row
       className={classnames(styles.instructionsRow, {
         [styles.checked]: checked,
       })}
+      key={key}
     >
       <motion.div
         whileHover={{ scale: 1.05 }}

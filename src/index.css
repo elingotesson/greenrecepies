@@ -1,15 +1,23 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #f5f4f3;
 }
 
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   /*font-family: "Playfair Display", sans-serif;*/
   font-family: "Red Hat Display", sans-serif;
   font-weight: 400;
   letter-spacing: 1.5px;
+  color: #35302b;
+}
+
+p {
+  color: #35302b;
 }
 
 ul.nav li {
@@ -29,10 +37,9 @@ ul.nav li a {
   font-weight: 400;
   text-decoration: none;
   display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 1rem;
   margin: 0;
-  font-size: 13px;
+  font-size: 1rem;
 }
 
 ul.nav li a:hover {
@@ -64,55 +71,12 @@ ul.nav li a:hover {
   outline-color: #ffffff;
 }
 
-.recepieContainer {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 5%;
+a {
+  text-decoration: none;
+  color: #000;
 }
 
-.recepie {
-  margin: 0px 10px 0px 10px;
-  width: 265px;
-  overflow: hidden;
-  position: relative;
-}
-
-.recepie p,
-.recepie h3 {
-  text-align: center;
-}
-
-.recepie img {
-  position: relative;
-  overflow: hidden;
-  width: 272px;
-  height: 160px;
-  object-fit: cover;
-  transition: transform 0.5s ease-in-out;
-}
-
-.recepie img:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-  overflow: hidden;
-}
-
-.recepie p {
-  font-size: 12px;
-}
-
-#footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: space-between;
-  font-size: 10px;
-  background-color: #ded6cc;
-  margin: 0;
-  padding: 0;
-  color: #8c7d70;
-}
-
-#footer p {
-  margin: 15px;
+a:hover {
+  text-decoration: none;
+  color: #777;
 }

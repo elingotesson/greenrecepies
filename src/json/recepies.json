@@ -3,9 +3,57 @@
         {
             "title": "VEGANSKA BAO BUNS",
             "imgUrl": "https://www.javligtgott.se/wp-content/uploads/2021/06/2I2A7328.jpg",
-            "portions": "3-4",
+            "servings": "4",
             "descripton": "",
-            "ingredients": ["400 g fast naturell tofu", "1 tsk riven färsk ingefära", "2 klyftor vitlök", "1/2 dl Kikkomansoja", "1-3 tsk TABASCO® Sriracha", "1 msk sesamolja", "2 dl vegansk majonnäs", "2 klyftor vitlök", "1 tsk färsk riven ingefära", "2 msk sesamolja", "1,5 msk Kikkomansoja", "1-3 tsk TABASCO® Srirachasås", "Jucie från 1/3 lime", "Salt efter smak"],
+            "ingredientsGroups": [{
+                    "title": "Tofu",
+                    "ingredients": [
+                        "400 g fast naturell tofu", 
+                        "1 tsk riven färsk ingefära", 
+                        "2 klyftor vitlök", 
+                        "1/2 dl Kikkomansoja", 
+                        "1-3 tsk TABASCO® Sriracha", 
+                        "1 msk sesamolja"
+                    ]
+                },
+                {
+                    "title": "Dressing",
+                    "ingredients": [
+                        "2 dl vegansk majonnäs", 
+                        "2 klyftor vitlök", 
+                        "1 tsk färsk riven ingefära", 
+                        "2 msk sesamolja", 
+                        "1,5 msk Kikkomansoja", 
+                        "1-3 tsk TABASCO® Srirachasås", 
+                        "Jucie från 1/3 lime", 
+                        "Salt efter smak"
+                    ]
+                },
+                {
+                    "title": "Picklade grönsaker",
+                    "ingredients": [
+                        "2 morötter",
+                        "1 rödlök",
+                        "1 röd chili",
+                        "2 cm färsk ingefära",
+                        "1,5 dl vatten",
+                        "1 dl socker",
+                        "0,5 dl ättika",
+                        "Lite salt"
+                    ]
+                },
+                {
+                    "title": "Övriga ingredienser",
+                    "ingredients": [
+                        "12 st frysta Bao bröd",
+                        "1 kruka färsk mynta",
+                        "1 kruka färsk basilika",
+                        "2 dm färsk gurka",
+                        "Mer TABASCO® Srirachasås",
+                        "Lite sesamfrön att toppa med"
+                    ]
+                }
+            ],
             "instructions": [{
                 "title": "Tofun",
                 "steps": [
@@ -27,9 +75,195 @@
                     "Skala och strimla morötterna, löken, ingefäran och chilin tunt.",
                     "Hetta upp vatten, socker, ättika och lite salt i en kastrull. När lagen kokat upp så lägg ner grönsakerna och låt allt svalna i kastrullen. Efter ca 1 h är grönsakerna färdiga att ätas."
                 ]
+            },
+            {
+                "title": "Övriga ingredienser",
+                "steps": [
+                    "När alla dina övriga ingredienser är förberedda och står och drar, så börja ånga dina Bao. Enklast gör du det med en ångkorg som du ställer ovanpå en kastrull med sjudande vatten på spisen.",
+                    "Lägg ett utklippt bakplåtspapper i botten på din ångkorg så fastnar inte bröden. Ånga i ca 5 minuter tills de tinat och går att öppna.",
+                    "Grovhacka mynta och koriander och skiva gurkan.",
+                    "Bygg varje Bao med Srirachasås i botten, sedan mynta, gurka, tofu, pickles, dressing, koriander och sist lite sesamfrön på toppen och servera i ångkorgarna, eller varför inte låta alla bygga sina egna Baos på bordet?"
+                ]
             }
         ],
             "originUrl": "https://www.javligtgott.se/veganska-bao-buns/"
+        }, 
+        {
+            "title": "GARAM MASALA GRYTA MED TOMAT OCH KOKOSMJÖLK",
+            "imgUrl": "https://undertian.com/wp-content/uploads/2019/04/Garam-masalagryta-med-koksmjo%CC%88lk-och-tomat-2-1308x1308.jpg",
+            "servings": "8",
+            "descripton": "En väldigt god, lättlagad och härlig gryta som är enkel att tillaga. Här serveras den med ris men du kan själv enkelt variera tillbehör.",
+            "ingredientsGroups": [
+                {
+                    "ingredients": [
+                        "2 st gul lök", 
+                        "4 st vitlöksklyftor", 
+                        "2 msk ingefära, färsk", 
+                        "2 st grönsaksbuljongtärning", 
+                        "2 msk garam masala", 
+                        "2 krm sambal oelek", 
+                        "4 msk tomatpuré", 
+                        "2 tsk paprikapulver", 
+                        "4 dl kokosmjölk", 
+                        "2 dl vatten", 
+                        "4 dl krossade tomater", 
+                        "10 dl kikärtor, kokta", 
+                        "1 st lime, saften", 
+                        "8 port ris"
+                    ]
+                }
+            ],
+            "instructions": [{
+                "steps": [
+                    "Skala och finhacka lök, vitlök och ingefära. Stek i olja på medelvärme tills de mjuknat. Tillsätt buljongtärning, garam masala, sambal oelek, tomatpuré och paprikapulver och låt fräsa med några minuter.",
+                    "Tillsätt kokosmjölk, vatten och tomat och låt småputtra i ca 15 min.",
+                    "Under tiden: Koka upp ris enligt förpackningen.",
+                    "När riset kokat klart: Tillsätt kokta kikärtor i grytan och låt bli varma. Pressa i limen och smaka av med salt.",
+                    "Servera garam masala-grytan med riset."
+                ]
+            }
+        ],
+            "originUrl": "https://undertian.com/recept/garam-masala-gryta-med-tomat-och-kokosmjolk/"
+        },
+        {
+            "title": "RAW PEPPARKAKSBOLLAR",
+            "imgUrl": "",
+            "servings": "12",
+            "descripton": "",
+            "ingredientsGroups": [
+                {
+                    "ingredients": [
+                        "1,5 dl mandlar", 
+                        "1,5 dl havregryn", 
+                        "10-12 färska dadlar", 
+                        "2-3 tsk pepparkakskrydda", 
+                        "1 nypa salt"
+                    ]
+                }
+            ],
+            "instructions": [{
+                "steps": [
+                    "Mixa nötter och havregryn till ett mjöl.",
+                    "Blanda i resten av ingredienserna.",
+                    "Mixa och forma till bollar.",
+                    "Ät som de är eller rulla i kokosflingor. Förvara i kyl eller frys."
+                ]
+            }
+        ],
+            "originUrl": ""
+        }, 
+        {
+            "title": "GARAM MASALA GRYTA MED TOMAT OCH KOKOSMJÖLK",
+            "imgUrl": "https://undertian.com/wp-content/uploads/2019/04/Garam-masalagryta-med-koksmjo%CC%88lk-och-tomat-2-1308x1308.jpg",
+            "servings": "8",
+            "descripton": "En väldigt god, lättlagad och härlig gryta som är enkel att tillaga. Här serveras den med ris men du kan själv enkelt variera tillbehör.",
+            "ingredientsGroups": [
+                    {
+                    "ingredients": [
+                        "2 st gul lök", 
+                        "4 st vitlöksklyftor", 
+                        "2 msk ingefära, färsk", 
+                        "2 st grönsaksbuljongtärning", 
+                        "2 msk garam masala", 
+                        "2 krm sambal oelek", 
+                        "4 msk tomatpuré", 
+                        "2 tsk paprikapulver", 
+                        "4 dl kokosmjölk", 
+                        "2 dl vatten", 
+                        "4 dl krossade tomater", 
+                        "10 dl kikärtor, kokta", 
+                        "1 st lime, saften", 
+                        "8 port ris"
+                    ]
+                }
+            ],
+            "instructions": [{
+                "steps": [
+                    "Skala och finhacka lök, vitlök och ingefära. Stek i olja på medelvärme tills de mjuknat. Tillsätt buljongtärning, garam masala, sambal oelek, tomatpuré och paprikapulver och låt fräsa med några minuter.",
+                    "Tillsätt kokosmjölk, vatten och tomat och låt småputtra i ca 15 min.",
+                    "Under tiden: Koka upp ris enligt förpackningen.",
+                    "När riset kokat klart: Tillsätt kokta kikärtor i grytan och låt bli varma. Pressa i limen och smaka av med salt.",
+                    "Servera garam masala-grytan med riset."
+                ]
+            }
+        ],
+            "originUrl": "https://undertian.com/recept/garam-masala-gryta-med-tomat-och-kokosmjolk/"
+        },
+        {
+            "title": "JÄVLIGT NACHO",
+            "imgUrl": "https://www.javligtgott.se/wp-content/uploads/2019/03/IMG_8974.jpg",
+            "servings": "4",
+            "descripton": "",
+            "ingredientsGroups": [
+                {
+                    "ingredients": [
+                        "2 hela färska jalapenjos eller 20 skivor inlagd", 
+                        "1 kruka krispsallad", "4 skivor Violife Cheddarost eller Green Vie Cheddarost", 
+                        "4 Beyondburgare, eller hemmagjorda burgare, Incredible Burger eller Juicy Vegan Burgers", 
+                        "4 Bröd, gärna Korvbrödbagarens Ekologiska eller Brooklynbröd" 
+                    ]
+                },
+                {
+                    "title": "Aioli",
+                    "ingredients": [
+                        "1,5 klyfta riven vitlök", 
+                        "Jucie från ½ lime", 
+                        "2 dl veganmajonnäs", 
+                        "Salt och svartpeppar efter smak"
+                    ]
+                }, 
+                {
+                    "title": "Mojo Rojo",
+                    "ingredients": [
+                        "1,5 röd lök", 
+                        "2 klyftor vitlök",
+                        "2 tsk sambal oelek",
+                        "2 tsk spiskummin",
+                        "2 tsk rökt paprikapulver",
+                        "1 msk torkad oregano",
+                        "1 burka á 400 g krossade tomater",
+                        "1 msk olivolja",
+                        "1 tsk limejuice",
+                        "1 msk kikkomansoja"
+                    ]
+                }, 
+                {
+                    "title": "Stekt lök",
+                    "ingredients": [
+                        "1 stor fint strimlad gul lök",
+                        "Salt och peppar",
+                        "Rapsolja till stekning"
+                    ]
+                }
+            ],
+            "instructions": [{
+                "title": "Aioli",
+                "steps": [
+                    "Häll ner skalad vitlök, kikärtsspad, citronjuice och dijonsenap i en hög bunke.",
+                    "Under kraftig omvispning med till exempel en mixerstav eller elvisp, ringla ner rapsolja i en tunn stråle tills du fått ner ca 1 dl olja. Om du använder elvisp bör du riva vitlöken först.",
+                    "Därefter borde såsen vara så fast så du kan börja hälla snabbare. Häll tills du fått i ca 2-2,5 dl olja i såsen och den är riktigt fast och tjock.",
+                    "Smaka av med salt och peppar och ev. lite socker. Vispa 30 sekunder till för en riktigt tjock sås. Klart!"
+                ]
+            },
+            {
+                "title": "Mojo Rojo",
+                "steps": [
+                    "Skala och skiva lök och vitlök.",
+                    "Värm upp en kastrull med olivolja med lök, vitlök, kryddorna och sambal och stek på medelhög värme i 2-3 minuter tills löken blivit mjuk och börjat få lite färg, utan att brännas",
+                    "Tillsätt krossade tomater och sojasås och koka i minst 30 min tills såsen reducerat ner och blivit tjock.",
+                    "Mixa såsen slät och smaka av med salt och lite färsk limejuice."
+                ]
+            },
+            {
+                "title": "Stekt lök",
+                "steps": [
+                    "Skala och strimla löken fint",
+                    "Stek ca 1,5 msk lökstrimlor i rapsolja per burgare samtidigt som dessa i samma panna som burgarna steker i tills löken får fin färg på bägge sidor.",
+                    "Salta och peppra."
+                ]
+            }
+        ],
+            "originUrl": "https://www.javligtgott.se/javligt-nacho-recept-och-video/"
         } 
     ]
 }
