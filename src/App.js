@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Header } from "./components/Header/Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { SingleRecepie } from "./views/SingleRecepie";
+import { SingleRecepie, Home } from "./views";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
@@ -22,8 +22,9 @@ function App() {
         <Header />
         <div className="container flex-column">
           <Switch>
-            <Route path="/" exact={true}></Route>
+            <Route path="/" exact={true} component={Home}></Route>
             <Route path="/bao" component={SingleRecepie}></Route>
+            <Route path="/recepie" component={SingleRecepie}></Route>
           </Switch>
         </div>
       </div>
