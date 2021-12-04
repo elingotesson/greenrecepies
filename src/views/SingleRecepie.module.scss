@@ -16,16 +16,16 @@
 .img {
   max-width: 100%;
   border-radius: 0.1rem;
+  object-fit: cover;
+  width: 100%;
 
   @media (max-width: 62rem) {
     margin-bottom: 2rem;
-    width: 100%;
   }
 }
 
 .ingredientRow {
   margin-bottom: 2rem;
-  // align-items: center;
 }
 
 .icon {

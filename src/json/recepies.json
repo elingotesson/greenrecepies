@@ -153,37 +153,32 @@
             "originUrl": ""
         }, 
         {
-            "title": "GARAM MASALA GRYTA MED TOMAT OCH KOKOSMJÖLK",
-            "imgUrl": "https://undertian.com/wp-content/uploads/2019/04/Garam-masalagryta-med-koksmjo%CC%88lk-och-tomat-2-1308x1308.jpg",
-            "servings": "8",
-            "descripton": "En väldigt god, lättlagad och härlig gryta som är enkel att tillaga. Här serveras den med ris men du kan själv enkelt variera tillbehör.",
+            "title": "BAO BUNS",
+            "imgUrl": "https://media.istockphoto.com/photos/salapao-in-bamboo-steamer-steamed-stuff-bun-or-chinese-steamed-buns-picture-id1145247876?k=20&m=1145247876&s=612x612&w=0&h=WkEaQ1RA2ejP5YunNIQnWgP9kkzsbM3aLKkknETQYy8=",
+            "servings": "4",
+            "descripton": "",
             "ingredientsGroups": [
                     {
                     "ingredients": [
-                        "2 st gul lök", 
-                        "4 st vitlöksklyftor", 
-                        "2 msk ingefära, färsk", 
-                        "2 st grönsaksbuljongtärning", 
-                        "2 msk garam masala", 
-                        "2 krm sambal oelek", 
-                        "4 msk tomatpuré", 
-                        "2 tsk paprikapulver", 
-                        "4 dl kokosmjölk", 
-                        "2 dl vatten", 
-                        "4 dl krossade tomater", 
-                        "10 dl kikärtor, kokta", 
-                        "1 st lime, saften", 
-                        "8 port ris"
+                        "2 tsk torrjäst", 
+                        "2 dl mjölk, fingervarm", 
+                        "5 dl vetemjöl", 
+                        "3 msk strösocker", 
+                        "0,5 tsk salt", 
+                        "3 krm bakpulver", 
+                        "3 krm bikarbonat", 
+                        "2 msk neutral matolja", 
+                        "2 msk sesamolja, till pensling"
                     ]
                 }
             ],
             "instructions": [{
                 "steps": [
-                    "Skala och finhacka lök, vitlök och ingefära. Stek i olja på medelvärme tills de mjuknat. Tillsätt buljongtärning, garam masala, sambal oelek, tomatpuré och paprikapulver och låt fräsa med några minuter.",
-                    "Tillsätt kokosmjölk, vatten och tomat och låt småputtra i ca 15 min.",
-                    "Under tiden: Koka upp ris enligt förpackningen.",
-                    "När riset kokat klart: Tillsätt kokta kikärtor i grytan och låt bli varma. Pressa i limen och smaka av med salt.",
-                    "Servera garam masala-grytan med riset."
+                    "I en degblandare, blanda jäst och mjölk. Tillsätt övriga ingredienser och kör på lägsta fart i ca 10 minuter. Degen ska vara smidig och blank. Låt jäsa till dubbel storlek eller i 1-1,5 timme under plastfolie.",
+                    "Lägg upp degen på arbetsbänken och dela i 24 jämnstora bitar. Låt jäsa i 30 minuter under ren köksduk.",
+                    "Kavla ut varje bit deg till en 10 cm oval platta. Pensla tunt med sesamolja och vik sedan över en sida så det blir som en halvmåne.",
+                    "Om du använder ångugn: Lägg bakplåtspapper på en plåt och sprid ut samtliga degbitar på bakplåtspapperet. Om du använder bambukorg: Klipp ut 24 10x10 cm bitar av bakplåtspapper. Lägg en degbit på en bit bakplåtspapper och gör sedan likadant med samtliga degbitar.",
+                    "Jäs under duken igen i 45 minuter och ånga sedan i 10 minuter antingen ångugn eller bambukorg."
                 ]
             }
         ],

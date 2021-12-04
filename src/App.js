@@ -12,6 +12,7 @@ import {
   faUserFriends,
   faCheck,
 } from "@fortawesome/free-solid-svg-icons";
+import { ScrollToTop } from "./components/ScrollToTop/ScrollToTop";
 
 library.add(fab, fas, faCheckSquare, faCoffee, faUserFriends, faCheck);
 
@@ -21,11 +22,13 @@ function App() {
       <div className="App">
         <Header />
         <div className="container flex-column">
-          <Switch>
-            <Route path="/" exact={true} component={Home}></Route>
-            <Route path="/bao" component={SingleRecepie}></Route>
-            <Route path="/recepie" component={SingleRecepie}></Route>
-          </Switch>
+          <ScrollToTop>
+            <Switch>
+              <Route path="/" exact={true} component={Home}></Route>
+              <Route path="/bao" component={SingleRecepie}></Route>
+              <Route path="/recepie" component={SingleRecepie}></Route>
+            </Switch>
+          </ScrollToTop>
         </div>
       </div>
     </Router>

@@ -15,13 +15,9 @@ $check-button-size: 1.5rem;
 .instructionsRow {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 1rem;
   padding: 0 15px;
-
-  @media (max-width: 32rem) {
-    align-items: flex-start;
-  }
 
   p {
     margin-bottom: 0;

@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import json from "../json/recepies.json";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import styles from "./Home.module.scss";
 import { NavLink } from "react-router-dom";
+import { SearchField } from "../components/SearchField/SearchField";
+import { useDebounce } from "use-debounce";
 
 type Step = {
   title?: string;
@@ -25,10 +27,29 @@ type Recepie = {
 };
 
 export const Home: React.FC = () => {
-  const recepies = json.recepies;
+  const [searchFieldValue, setSearchFieldValue] = useState<string>("");
+  const [searchWord, setSearchWord] = useState<string>("");
+  const [debouncedSearchWord] = useDebounce(searchWord, 300);
+  const recepies = json.recepies.filter((recepie) =>
+    recepie.title.includes(debouncedSearchWord.toUpperCase())
+  );
 
   return (
     <Container>
+      {
+        <Row>
+          <Col lg={4}>
+            <h1>Recept</h1>
+            <SearchField
+              value={searchFieldValue}
+              onChange={(event: React.ChangeEvent<any>) =>
+                setSearchFieldValue(event.target.value)
+              }
+              onKeyUp={(e) => setSearchWord(e.target.value)}
+            />
+          </Col>
+        </Row>
+      }
       <Row>
         {recepies &&
           recepies.map((recepie: Recepie, index) => (
