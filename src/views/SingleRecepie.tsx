@@ -93,7 +93,7 @@ export const SingleRecepie: React.FC = () => {
                     <h5 className={styles.instructionsTitle}>
                       {ingredientsGroup.title}
                     </h5>
-                    <ul className={styles.ingredientsList} key={index}>
+                    <ul className={styles.ingredientsList}>
                       {ingredientsGroup.ingredients &&
                         ingredientsGroup.ingredients.map(
                           (item: string, index: number) => (
@@ -110,8 +110,8 @@ export const SingleRecepie: React.FC = () => {
           <div className={styles.instructionsContainer}>
             <h4 className={styles.subTitle}>Gör såhär</h4>
             {instructions &&
-              instructions.map((instuction: Step) => (
-                <Row className={styles.instructionsRow}>
+              instructions.map((instuction: Step, index: number) => (
+                <Row className={styles.instructionsRow} key={index}>
                   <Col>
                     <h5 className={styles.instructionsTitle}>
                       {instuction.title}

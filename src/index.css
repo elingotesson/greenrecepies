@@ -51,26 +51,6 @@ ul.nav li a:hover {
   margin: 0 30px 0 30px;
 }
 
-#searchfield {
-  display: flex;
-  justify-content: center;
-  margin-top: 5%;
-  background-color: white;
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-}
-
-#searchfield input[type="text"] {
-  width: 40%;
-  padding: 12px 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-#searchfield input[type="text"] {
-  outline-color: #ffffff;
-}
-
 a {
   text-decoration: none;
   color: #000;
