@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/greenrecepies/static/css/main.70bc4b60.chunk.css",
-    "main.js": "/greenrecepies/static/js/main.560425eb.chunk.js",
-    "main.js.map": "/greenrecepies/static/js/main.560425eb.chunk.js.map",
+    "main.css": "/greenrecepies/static/css/main.0bff28a7.chunk.css",
+    "main.js": "/greenrecepies/static/js/main.c1e827da.chunk.js",
+    "main.js.map": "/greenrecepies/static/js/main.c1e827da.chunk.js.map",
     "runtime~main.js": "/greenrecepies/static/js/runtime~main.0374ff8e.js",
     "runtime~main.js.map": "/greenrecepies/static/js/runtime~main.0374ff8e.js.map",
     "static/css/2.94ae5829.chunk.css": "/greenrecepies/static/css/2.94ae5829.chunk.css",
-    "static/js/2.76cfcf7d.chunk.js": "/greenrecepies/static/js/2.76cfcf7d.chunk.js",
-    "static/js/2.76cfcf7d.chunk.js.map": "/greenrecepies/static/js/2.76cfcf7d.chunk.js.map",
+    "static/js/2.eb563397.chunk.js": "/greenrecepies/static/js/2.eb563397.chunk.js",
+    "static/js/2.eb563397.chunk.js.map": "/greenrecepies/static/js/2.eb563397.chunk.js.map",
     "index.html": "/greenrecepies/index.html",
-    "precache-manifest.85133a32734045846fe51f68ae2a8bce.js": "/greenrecepies/precache-manifest.85133a32734045846fe51f68ae2a8bce.js",
+    "precache-manifest.71fce42e41d02f1368fd038c148433ed.js": "/greenrecepies/precache-manifest.71fce42e41d02f1368fd038c148433ed.js",
     "service-worker.js": "/greenrecepies/service-worker.js",
     "static/css/2.94ae5829.chunk.css.map": "/greenrecepies/static/css/2.94ae5829.chunk.css.map",
-    "static/css/main.70bc4b60.chunk.css.map": "/greenrecepies/static/css/main.70bc4b60.chunk.css.map",
+    "static/css/main.0bff28a7.chunk.css.map": "/greenrecepies/static/css/main.0bff28a7.chunk.css.map",
     "static/media/font-awesome.min.css": "/greenrecepies/static/media/fontawesome-webfont.fee66e71.woff"
   }
 }
