@@ -348,6 +348,41 @@
             }
         ],
             "originUrl": ""
-        }  
+        }, 
+        {
+            "title": "PASTA MED PAPRIKASÅS",
+            "imgUrl": "",
+            "servings": "4",
+            "descripton": "",
+            "ingredientsGroups": [
+                {
+                    "ingredients": [
+                        "1 Gul paprika",
+                        "1 Röd paprika",
+                        "1 Zucchini",
+                        "0,5 Rödlök",
+                        "3 st Vitlöksklyftor",
+                        "2 msk Vitvinsvinäger",
+                        "1 tsk Sambal Oelek",
+                        "0.5 st Buljongtärning",
+                        "0.5 kruka Basilika",
+                        "1 msk Oregano",
+                        "400g Pasta",
+                        "2 dl Grädde"
+                    ]
+                }
+            ],
+            "instructions": [{
+                "steps": [
+                    "Hacka lök, skiva 2 vitlöksklyftor och strimla paprikor.",
+                    "Stek lök och vitlök i mycket olivolja. Häll på sambal och kryddor.",
+                    "Fräs snabbt. Tillsätt paprika och vitvinsvinäger. Puttra tills det blivit mjukt.",
+                    "Mixa grönsakerna och häll i grädde och buljon, värm upp igen.",
+                    "Mandolina zucchini, stek lite åt gången i olja med pressad vitlök."
+                ]
+            }
+        ],
+            "originUrl": ""
+        } 
     ]
 }
