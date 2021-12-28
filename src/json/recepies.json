@@ -259,6 +259,95 @@
             }
         ],
             "originUrl": "https://www.javligtgott.se/javligt-nacho-recept-och-video/"
-        } 
+        },
+        {
+            "title": "HUMMUS",
+            "imgUrl": "https://images.pexels.com/photos/6252675/pexels-photo-6252675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "servings": "4",
+            "descripton": "",
+            "ingredientsGroups": [
+                {
+                    "ingredients": [
+                        "1 pkt Kikärtor ca 300-400g",
+                        "0.5 dl Citronsaft (1 citron)",
+                        "2 msk Tahini",
+                        "1 Vitlöksklyfta",
+                        "2 msk Olivolja",
+                        "0.5 tsk Spiskummin",
+                        "0.5 tsk Salt",
+                        "2 msk Vatten",
+                        "Paprikapulver"
+                    ]
+                }
+            ],
+            "instructions": [{
+                "steps": [
+                    "Lägg i tahini och citronsaft i matprocessor och kör i 1 minut, skrapa sidorna och botten av skålen och mixa sedan i 30 sekunder till. Denna extra tid gör hummusen smidig och krämig.",
+                    "Tillsätt olivolja, finhackad vitlök, kummin och en 1/2 tesked salt. Bearbeta i 30 sekunder, skrapa sidorna och botten av skålen och behandla sedan ytterligare 30 sekunder eller tills den är väl blandad.",
+                    "Öppna, töm och skölj kikärterna väl. Tillsätt hälften av kikärterna i matprocessorn och mixa i 1 minut. Skrapa sidorna och botten av skålen, tillsätt sedan återstående kikärter och bearbeta tills den är tjock och ganska slät; 1 till 2 minuter.",
+                    "Förmodligen kommer hummusen att vara för tjock eller fortfarande ha små bitar kikärtor. För att fixa detta, med matprocessorn påslagen, tillsätt långsamt 2 till 3 matskedar vatten tills du når perfekt konsistens.",
+                    "Smaka av med salt och justera efter behov. Servera hummusen med en lite droppar av olivolja och lite paprikapulver.",
+                    "Förvara hemlagad hummus i en lufttät behållare och i kylskåpet upp till en vecka."
+                ]
+            }
+        ],
+            "originUrl": ""
+        },
+        {
+            "title": "SALTKOLA FUDGE",
+            "imgUrl": "",
+            "servings": "20",
+            "descripton": "",
+            "ingredientsGroups": [
+                {
+                    "ingredients": [
+                        "3 dl Vispgrädde",
+                        "2,5 dl Socker",
+                        "1 dl Ljus sirap",
+                        "1 Vaniljstång",
+                        "100g Vit choklad",
+                        "50g Smör",
+                        "1,5 tsk Flingsalt och extra till topping"
+                    ]
+                }
+            ],
+            "instructions": [{
+                "steps": [
+                    "Koka grädde, socker, sirap och fröna från vaniljstången samt vaniljstången i en kastrull. Rör om då och då.",
+                    "Låt koka tills temperaturen uppnår 120 grader. Ta sedan kastrullen från värmen och fiska upp vaniljstången.",
+                    "Rör ner vit choklad bruten i bitar, smör och flingsalt. Rör tills smeten är slät och häll sedan över smeten i en form klädd med bakplåtspapper.",
+                    "Sprinkla gärna över lite extra flingsalt på toppen efter ett par minuter. Förvara i kylen till fudgen har stelnat till, skär sedan i bitar. Förvaras i kyl."
+                ]
+            }
+        ],
+            "originUrl": ""
+        }, 
+        {
+            "title": "KOLA MED HASSELNÖTTER",
+            "imgUrl": "",
+            "servings": "40",
+            "descripton": "",
+            "ingredientsGroups": [
+                {
+                    "ingredients": [
+                        "150g Smör",
+                        "2 dl Vispgrädde",
+                        "3 dl Socker eller rörsocker",
+                        "1 dl Ljus sirap",
+                        "1 tsk Vaniljsocker",
+                        "0,5 tsk Flingsalt och extra till topping",
+                        "1 dl Rostade hasselnötter"
+                    ]
+                }
+            ],
+            "instructions": [{
+                "steps": [
+                    "Smält smöret i en kastrull. Tillsätt grädde, socker, vaniljsocker, sirap och flingsalt. Koka på medelvärme ca 20 minuter, rör om då och då. Hacka hasselnötterna grovt. Koka kolan till 124-125 grader eller gör ett kulprov.",
+                    "Blanda ner hasselnötterna och lägg i en bakplåtspappersklädd form ca 20 x 20 cm. Toppa med flingsalt. Låt svalna i rumstemperatur och skär sedan i bitar."
+                ]
+            }
+        ],
+            "originUrl": ""
+        }  
     ]
 }
